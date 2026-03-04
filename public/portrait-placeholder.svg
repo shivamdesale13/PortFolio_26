@@ -1,0 +1,50 @@
+<svg width="460" height="560" viewBox="0 0 460 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1A2C5D"/>
+      <stop offset="55%" stop-color="#0D1735"/>
+      <stop offset="100%" stop-color="#081124"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(335 115) rotate(132.6) scale(198.4 201.2)">
+      <stop stop-color="#4BC8FF" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#4BC8FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="face" x1="174" y1="149" x2="284" y2="394">
+      <stop stop-color="#F1E7DB"/>
+      <stop offset="1" stop-color="#D4B9A1"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="117" y1="409" x2="344" y2="557">
+      <stop stop-color="#F4F6FC"/>
+      <stop offset="1" stop-color="#DCE4F8"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="459" height="559" rx="20" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="459" height="559" rx="20" fill="url(#glow)"/>
+  <g opacity="0.15">
+    <circle cx="84" cy="98" r="78" fill="#B3C2FF"/>
+    <circle cx="367" cy="477" r="92" fill="#55D1FF"/>
+  </g>
+  <path d="M150 474C181 428 280 422 317 472V560H150V474Z" fill="url(#shirt)"/>
+  <path d="M172 452C180 422 202 405 231 405C260 405 282 422 291 452C267 473 197 474 172 452Z" fill="#E8EEF9"/>
+  <ellipse cx="230" cy="280" rx="98" ry="120" fill="url(#face)"/>
+  <path d="M130 263C136 194 177 142 230 142C286 142 328 196 332 267C314 246 290 232 266 225C230 214 188 220 157 242C147 249 138 256 130 263Z" fill="#1A1A20"/>
+  <path d="M153 242C169 183 207 147 251 150C289 152 317 181 326 229C311 212 286 197 255 192C214 186 177 203 153 242Z" fill="#2A2A33"/>
+  <ellipse cx="190" cy="284" rx="13" ry="9" fill="#FFFFFF" opacity="0.35"/>
+  <ellipse cx="270" cy="284" rx="13" ry="9" fill="#FFFFFF" opacity="0.35"/>
+  <circle cx="196" cy="289" r="5.5" fill="#23252E"/>
+  <circle cx="264" cy="289" r="5.5" fill="#23252E"/>
+  <path d="M195 252C205 248 216 249 223 254" stroke="#2C2A31" stroke-width="5" stroke-linecap="round"/>
+  <path d="M241 254C248 248 259 248 269 252" stroke="#2C2A31" stroke-width="5" stroke-linecap="round"/>
+  <path d="M226 301C229 314 228 330 224 341" stroke="#B98C71" stroke-width="4" stroke-linecap="round"/>
+  <path d="M193 350C218 370 252 370 276 350" stroke="#A36158" stroke-width="5" stroke-linecap="round"/>
+  <path d="M171 334C177 372 197 398 230 402C262 398 282 372 289 334" fill="#E2C5AD" opacity="0.75"/>
+  <path d="M154 560V520C177 505 198 501 230 501C261 501 282 505 306 520V560H154Z" fill="#FBFCFF"/>
+  <g opacity="0.82">
+    <path d="M28 42h164" stroke="#9DB0FF" stroke-opacity="0.15"/>
+    <path d="M28 70h124" stroke="#9DB0FF" stroke-opacity="0.1"/>
+    <path d="M268 60h164" stroke="#74D6FF" stroke-opacity="0.12"/>
+    <path d="M314 88h118" stroke="#74D6FF" stroke-opacity="0.08"/>
+  </g>
+  <text x="32" y="524" fill="#D7E2FF" fill-opacity="0.92" font-size="22" font-family="Arial, sans-serif" font-weight="700">Replace with your photo</text>
+  <rect x="0.5" y="0.5" width="459" height="559" rx="20" stroke="#8CA3FF" stroke-opacity="0.22"/>
+</svg>
