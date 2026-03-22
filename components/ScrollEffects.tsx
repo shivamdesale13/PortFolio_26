@@ -4,6 +4,10 @@ import { useEffect } from "react";
 
 export default function ScrollEffects() {
   useEffect(() => {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches || window.innerWidth <= 860) {
+      return;
+    }
+
     const selectors = [
       ".content-section",
       ".section-divider",
@@ -32,7 +36,7 @@ export default function ScrollEffects() {
 
     targets.forEach((target, index) => {
       target.classList.add("reveal-section");
-      target.style.setProperty("--reveal-delay", `${Math.min(index * 50, 280)}ms`);
+      target.style.setProperty("--reveal-delay", `${Math.min(index * 36, 180)}ms`);
     });
 
     const observer = new IntersectionObserver(

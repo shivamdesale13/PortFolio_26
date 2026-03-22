@@ -13,8 +13,11 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Mrudula Kulkarni | Portfolio",
-  description: "Portfolio website for Mrudula Kulkarni"
+  title: "Shivam Desale | Portfolio",
+  description: "Portfolio website for Shivam Desale",
+  icons: {
+    icon: "/icon.svg"
+  }
 };
 
 export default function RootLayout({

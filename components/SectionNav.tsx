@@ -70,7 +70,7 @@ export default function SectionNav({ items }: SectionNavProps) {
     <header className="top-nav">
       <a href="#home" className="brand">
         <span className="brand-mark">&lt;</span>
-        Mrudula
+        Shivam
         <span className="brand-mark">/&gt;</span>
       </a>
 

@@ -79,6 +79,8 @@ export default function HeroSection({
             alt={hero.portraitAlt}
             width={460}
             height={560}
+            sizes="(max-width: 600px) 88vw, (max-width: 1100px) 60vw, 460px"
+            quality={85}
             priority
           />
         </div>

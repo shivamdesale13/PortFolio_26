@@ -8,7 +8,12 @@ type EducationSectionProps = {
 export default function EducationSection({ education }: EducationSectionProps) {
   return (
     <section id="education" className="content-section">
-      <SectionHeading eyebrow="Education" title={education.title} description={education.description} />
+      <SectionHeading
+        eyebrow="Education"
+        title={education.title}
+        description={education.description}
+        className="education-section-heading"
+      />
 
       <div className="education-stack">
         {education.items.map((item) => (

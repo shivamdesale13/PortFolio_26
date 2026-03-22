@@ -10,112 +10,87 @@ export const portfolioContent: PortfolioContent = {
     { label: "Skills", href: "#skills" },
     { label: "Contact", href: "#contact" }
   ],
-  highlights: [
-    "MS CS @ SDSU",
-    "Graduating May 2027"
-  ],
-  heroTags:  [
-  "Microservices",
-  "React",
-  "Cloud",
-  "AI/ML",
-  "Distributed Systems"
-],
+  highlights: ["Software Engineer @ Anchor", "MS CS @ SDSU"],
+  heroTags: ["Python", "GraphQL", "AWS", "React", "LLMs"],
   rotatingRoles: [
     "Software Engineer",
     "Full-Stack Developer",
-    "Cloud-Native Backend",
-    "AI/ML Enthusiast"
+    "Backend Engineer",
+    "AI Product Builder"
   ],
   hero: {
-    name: "Mrudula Kulkarni",
+    name: "Shivam Desale",
     intro: "Hi, I'm",
     roleDescription:
-        "Building scalable backend and cloud-native systems with clean architecture and production reliability.",
+      "Building production software across backend systems, full-stack products, and AI-assisted user experiences.",
     summary:
-        "MS Computer Science student at San Diego State University with experience engineering enterprise backend services and cloud integrations. Now focusing on ML, NLP, and Generative AI to design intelligent, data-driven systems at scale.",
-    portraitSrc: "/hero-portrait-ghibli.jpg",
-    portraitAlt: "Mrudula Kulkarni portrait"
+      "Software Engineer currently building ticketing and booking systems at Anchor Operating System. My work spans Python, GraphQL, React, AWS, and LLM-powered workflows, with prior experience across platform engineering, microservices, and high-scale internal products.",
+    portraitSrc: "/hero-portrait-ghibli-optimized.jpg",
+    portraitAlt: "Shivam Desale portrait"
   },
   socialLinks: {
-    linkedin: "https://www.linkedin.com/in/mrudula-kulkarni-748893191/",
-    github: "https://github.com/Mrudula-Kulkarni",
-    email: "mailto:mkulkarni5479@sdsu.edu"
+    linkedin: "https://www.linkedin.com/in/shivam-desale-02/",
+    github: "https://github.com/shivamdesale13",
+    email: "mailto:sdesale9794@sdsu.edu"
   },
   about: {
-    title: "From curiosity to scalable systems",
+    title: "Engineering reliable systems with measurable impact",
     description:
-      "I design scalable full-stack and AI-enabled systems that combine thoughtful architecture with real-world impact",
+      "I focus on backend and full-stack systems that improve reliability, performance, and user experience in production environments.",
     stats: [
-      { value: "2+", label: "Experience" },
-      { value: "3.9", label: "GPA" },
-      { value: "2+", label: "Publications" }
+      { value: "4", label: "Roles Delivered" },
+      { value: "3.8", label: "MS GPA" },
+      { value: "1", label: "AWS Certification" }
     ],
     journeyTitle: "My Journey",
     journeyParagraphs: [
-      "From a young age, I was fascinated by how simple lines of code could automate everyday tasks and make life easier, whether through something as simple as QR-based payments or systems powering larger platforms. That early curiosity evolved into a deeper interest in building software that operates at scale and solves **meaningful, real-world problems**.",
-      "During my undergraduate studies in Information Technology, I strengthened my core computer science foundations while building **full-stack applications** that connected intuitive frontend experiences with reliable backend systems. Alongside academics, I actively contributed to IEEE initiatives, volunteered and mentored in technical communities, and gained hands-on industry exposure through internships at **IEEE, Fiserv, and HP**.",
-      "After graduation, I spent **over two years at HP** as a Software Engineer, building backend services and cloud-native microservices within enterprise-scale architectures, working on REST APIs, cloud integrations, CI/CD pipelines, and production systems at scale. Now, as a Master’s student in Computer Science at San Diego State University, I am expanding into **Machine Learning and Generative AI**, designing intelligent systems that combine scalable infrastructure with data-driven insights."
+      "My path has centered on shipping software that solves operational problems at scale, from healthcare reporting and employee platforms to real-time ticketing and booking systems.",
+      "I have worked across **Java, Python, React, GraphQL, FastAPI, and AWS**, moving between backend services, responsive user interfaces, event-driven pipelines, and cloud deployments depending on what the product needed.",
+      "Alongside industry experience, I am completing a **Master's in Computer Science at San Diego State University**, where I have continued building depth in AI, machine learning, data science, and systems-oriented engineering."
     ],
-    achievementsTitle: "Achievements & Recognition",
-    achievementsDescription: "Selected milestones from research, engineering, and competitive projects.",
+    achievementsTitle: "Credentials & Highlights",
+    achievementsDescription: "Resume-backed highlights that reinforce technical depth and delivery impact.",
     achievements: [
       {
-        title: "Technology Infusion Grand Challenge (TIGC) – Grant Recipient",
-        description: "Awarded a $500 AUD grant for building a blockchain-powered toll system.",
+        title: "AWS Certified Solutions Architect - Associate",
+        description: "Validated AWS architecture knowledge with certification ID 0YPRVP1201Q4QT3.",
         kind: "award",
-        badge: "Winner"
+        badge: "Certified"
       },
       {
-        title: "IEEE EUREKA 2020 – Stream 1 Winner",
-        description: "National Rank 1 in a nationwide engineering competition.",
+        title: "Team Leadership at KPIT Technologies",
+        description: "Led 3 interns, improved onboarding time by 70%, and coordinated delivery across 1700+ JIRA tickets.",
         kind: "award",
-        badge: "Winner"
-      },
-      {
-        title: "Speech Emotion Recognition Using Machine Learning",
-        description: "Published research on ML-based speech emotion classification.",
-        kind: "publication",
-        badge: "Published",
-        linkLabel: "View Publication",
-        linkHref: "https://ijrar.org/viewfull.php?&p_id=IJRAR1CNP011ç"
-      },
-      {
-        title: "Smart Toll Booth System Using Smart Contracts",
-        description: "Co-authored IEEE paper on blockchain-based toll automation.",
-        kind: "publication",
-        badge: "Published",
-        linkLabel: "View Publication",
-        linkHref: "https://ieeexplore.ieee.org/document/10126123"
+        badge: "Leadership"
       }
     ],
     lookingForTitle: "Looking For",
     lookingForGroups: [
       {
         title: "Opportunities",
-        items: ["Internship", "Co-op"]
+        items: ["Software Engineering", "Full-Stack", "Backend", "Applied AI"]
       },
       {
-        title: "Roles",
-        items: ["Software Engineer", "Backend", "Frontend", "Full-Stack"]
+        title: "Focus Areas",
+        items: ["Distributed Systems", "Cloud Platforms", "GraphQL APIs", "LLM Workflows"]
       }
     ]
   },
   education: {
     title: "Academic background",
     description:
-      "Academic foundation that shaped my engineering mindset and approach to scalable system design.",
+      "Graduate and undergraduate training focused on computer science fundamentals, machine learning, and scalable software systems.",
     items: [
       {
         level: "Graduate",
         degree: "Master of Science in Computer Science",
         institution: "San Diego State University",
-        gpa: "3.91/4.0",
-        period: "2025 - 2027",
+        gpa: "3.8/4.0",
+        period: "Aug 2024 - May 2026",
         location: "San Diego, CA, USA",
         highlights: [
-          "Advanced coursework in Data Structures, Algorithms, Machine Learning, and Data Science focused on scalable and data-driven systems.",
-          "Conducting research on ML-driven NLP and Generative AI systems for large-scale information processing."
+          "Coursework in AI, Data Structures and Algorithms, Machine Learning, Data Science, and Computer Networks.",
+          "Expanding depth in intelligent systems while applying software engineering practices to production-grade products."
         ]
       },
       {
@@ -123,179 +98,155 @@ export const portfolioContent: PortfolioContent = {
         degree: "Bachelor of Engineering in Information Technology",
         institution: "Savitribai Phule Pune University",
         gpa: "4.0/4.0",
-        period: "2019 - 2023",
+        period: "Aug 2019 - May 2023",
         location: "Pune, Maharashtra, India",
         highlights: [
-          "Strong foundation in Object-Oriented Programming, Operating Systems, DBMS, and Distributed Systems.",
-          "Gained industry and leadership experience through internships at HP and Fiserv and IEEE technical initiatives, contributing to scalable backend and full-stack systems."
+          "Coursework in SDLC, Operating Systems, Distributed Systems, Object-Oriented Programming, and Cloud Computing.",
+          "Built a strong foundation across systems, software delivery, and application development."
         ]
       }
     ]
   },
   experience: {
     title: "Professional Experience",
-    description:"A journey spanning backend engineering, cloud systems, and AI-powered research innovation.",
+    description:
+      "Hands-on engineering across ticketing, internal platforms, healthcare systems, and full-stack product delivery.",
     items: [
       {
-        role: "Research Software Engineer",
-        company: "San Diego State University",
-        period: "Aug 2025 - Present",
-        achievements: [
-          "Designed and deployed RAG-based GenAI systems integrating embedding-driven retrieval with LangChain orchestration for context-aware LLM inference over large research corpora.",
-          "Built agentic AI pipelines using LangGraph to enable multi-step reasoning and autonomous workflow execution for literature review and NASA proposal analysis.",
-          "Developed LLM-powered summarization and structured information extraction workflows using prompt engineering and vector search.",
-          "Implemented ML-based topic modeling pipelines using NLP preprocessing and NMF to extract structured themes from large academic datasets."
-        ],
-        technologies: [
-          "Python",
-          "LLMs",
-          "GenAI",
-          "RAG",
-          "Agentic AI",
-          "NLP",
-        ]
-      },
-      {
         role: "Software Engineer",
-        company: "HP Inc.",
-        period: "Jul 2023 - Jul 2025",
+        company: "Anchor Operating System",
+        period: "Feb 2026 - Present",
         achievements: [
-          "Designed and developed backend microservices using Java and Spring Boot within HP’s enterprise workforce platform.",
-          "Built and maintained RESTful APIs integrated with MongoDB and AWS cloud services in a distributed architecture.",
-          "Implemented event-driven workflows and containerized services to support scalable, production-grade deployments.",
-          "Collaborated across product, frontend, and DevOps teams to deliver reliable features in an Agile environment."
+          "Architected an end-to-end Ticket Availability API for Expedia using Python, GraphQL, and AWS Lambda, delivering real-time availability.",
+          "Engineered an interactive Seat Map and Seat Hold checkout flow in React, Redux, and Tailwind CSS, reducing seat-selection drop-offs.",
+          "Implemented GenAI-generated explanations for failed bookings using prompt-engineered LLM workflows."
         ],
-        technologies: ["Java", "Spring Boot", "MongoDB", "AWS", "Docker", "Kubernetes", "Jenkins"]
+        technologies: ["Python", "GraphQL", "React", "JavaScript", "AWS", "LLMs", "OpenAI API", "Datadog"]
       },
       {
         role: "Software Engineer Intern",
-        company: "HP Inc.",
-        period: "Jan 2023 - Jul 2023",
+        company: "Hornblower Group",
+        period: "Jun 2025 - Aug 2025",
         achievements: [
-          "Developed RESTful APIs for the HP TechPulse DaaS platform to retrieve and process device fleet data.",
-          "Enhanced frontend modules using React and Material-UI, focusing on responsive design and performance optimization.",
-          "Worked with CI/CD pipelines, monitoring tools, and containerized deployments to support scalable production systems."
+          "Built a membership dashboard for San Diego Zoo using React and Redux-Saga with table virtualization for 50K+ records.",
+          "Integrated GraphQL queries and mutations with AWS DynamoDB to update ticketing data in real time for kiosk workflows.",
+          "Supported containerization of microservices with Docker and Jenkins CI/CD pipelines."
         ],
-        technologies: ["Java", "Spring Boot", "React", "AWS", "Kubernetes", "Git"]
+        technologies: ["Node.js", "GraphQL", "React", "TypeScript", "Docker", "AWS", "Redux"]
       },
       {
-        role: "Technology Summer Intern",
-        company: "Fiserv",
-        period: "Jul 2022 - Sep 2022",
+        role: "Software Developer (Full-stack)",
+        company: "KPIT Technologies",
+        period: "Sep 2023 - Jun 2024",
         achievements: [
-          "Worked on backend modules within the Fiserv Biller product using C# and ASP.NET to enhance payment processing workflows.",
-          "Optimized SQL queries and implemented stored procedures to improve transaction handling and system reliability.",
-          "Developed responsive payment information forms using Angular Reactive Forms with state management integration."
+          "Optimized an event-driven pipeline using FastAPI, Python, and Kafka to automate course assignment and progress updates.",
+          "Built RESTful APIs with FastAPI and Pydantic, integrating PostgreSQL and Elasticsearch.",
+          "Validated scalability with PyTest, Jest, and JMeter across FastAPI and React workloads for 1000+ concurrent users.",
+          //"Led 3 interns and improved onboarding time by 70% while coordinating delivery across 1700+ JIRA tickets in an Agile workflow."
         ],
-        technologies: ["C#", "ASP.NET", "Microsoft SQL Server", "Angular", "NgRx"]
+        technologies: ["Python", "FastAPI", "Kafka", "PostgreSQL", "Elasticsearch", "React", "PyTest", "Jest", "JMeter"]
       },
       {
-        role: "Full-Stack Developer Intern",
-        company: "IEEE Pune Section",
-        period: "Aug 2021 - Mar 2022",
+        role: "Associate Software Engineer",
+        company: "Avanzens",
+        period: "May 2022 - Jul 2023",
         achievements: [
-          "Developed a full-stack membership and event management dashboard using Node.js, Express, MongoDB, and React.",
-          "Built RESTful APIs for user authentication, registration workflows, and admin data management.",
-          "Designed reusable frontend components and automated reporting scripts to support event coordination."
+          "Automated a healthcare reporting microservice and background workflows using Java and Spring Boot.",
+          "Designed a responsive UI for the Baioniq healthcare product with ReactJS and Material-UI, integrating Redis caching to improve performance.",
+          "Assisted in deploying a patient data ingestion service on Linux using Kubernetes with MongoDB and MySQL persistence, reducing downtime.",
+          "Collaborated with 4 cross-functional teams to deliver features through GitLab CI/CD pipelines using Agile practices."
         ],
-        technologies: ["Node.js", "Express.js", "MongoDB", "React", "Python", "REST APIs"]
+        technologies: ["Java", "Spring Boot", "ReactJS", "Material-UI", "Redis", "MySQL", "MongoDB", "Kubernetes", "GitLab CI/CD"]
       }
     ]
   },
   projects: {
     title: "Selected Builds",
     description:
-        "A curated selection of full-stack systems, ML models, AI-driven solutions, and blockchain-powered applications.",
+      "Projects that reflect interest in AI-assisted interfaces, real-time interaction, and production-oriented application design.",
     items: [
       {
-        title: "Retail Sales Demand Forecasting (Festive vs Normal)",
+        title: "ConvoVoice AI - Real-Time WebRTC Voice Assistant",
         description:
-            "Built an end-to-end ML pipeline on 2023–2024 retail sales data with feature engineering and time-series analysis. Trained a Decision Tree model to predict demand shifts and evaluated performance using MAE, RMSE, and R².",
-        tags: ["Python", "Machine Learning", "Pandas", "Scikit-learn", "Time-Series"],
-        linkLabel: "View Project",
-        linkHref: "https://github.com/Mrudula-Kulkarni/Retail-Sales-Demand-Forecasting-Festive-vs-Normal"
+          "Developed a real-time voice AI assistant for inbound calls using OpenAI API, Twilio, Node.js, and Express. Applied NLP techniques for intent extraction and response generation, then delivered automated spoken replies through TTS.",
+        tags: ["OpenAI API", "NLP", "JavaScript", "Node.js", "Express", "Twilio", "WebRTC", "Deepgram"],
+        linkLabel: "View Code",
+        linkHref: "https://github.com/shivamdesale13/WebRTC-Voice-AI-Bot--"
       },
       {
-        title: "Speech Emotion Recognition System",
+        title: "Garment Worker Productivity Analysis",
         description:
-            "Developed a speech emotion recognition system using MFCC feature extraction and CNN, SVM, and MLP classifiers, achieving 92% accuracy. Deployed as a Flask-based web application for real-time emotion prediction.",
-        tags: ["Python", "Flask", "Machine Learning", "MFCC", "CNN", "SVM"],
-        linkLabel: "View Project",
-        linkHref: "https://ijrar.org/viewfull.php?&p_id=IJRAR1CNP011"
+            "Performed EDA using Pandas, NumPy, and Matplotlib/Seaborn to analyze garment worker productivity trends. Preprocessed data, handling missing values, feature engineering, and outlier detection for dataset integrity.",
+        tags: ["Python", "Pandas", "Numpy", "Claude AI", "Kaggle"],
+        linkLabel: "View Code",
+        linkHref: "https://github.com/shivamdesale13/Worker_productivity_prediction"
       },
       {
-        title: "Smart Toll Booth System using Smart Contracts",
+        title: "SMART TOLL BOOTH SYSTEM USING SMART CONTRACT",
         description:
-            "Designed a blockchain-powered GPS-based toll collection system using smart contracts to enable secure, decentralized, and transparent automated toll payments.",
-        tags: ["Blockchain", "Smart Contracts", "Solidity", "GPS Tracking", "Web3"],
-        linkLabel: "View Project",
-        linkHref: "https://ieeexplore.ieee.org/document/10126123"
+            "Designed and implemented an admin panel website for efficient tracking and executed logic for smart contracts, ensuring secure and transparent toll transactions.",
+        tags: ["Python", "Django", "React", "JavaScript", "Node.js", "Express"],
+        linkLabel: "View Code",
+        linkHref: "https://github.com/shivamdesale13"
       }
+
     ]
   },
   skillsSection: {
     title: "Technical Skills",
-    description: "Technologies I use to design, build, and scale production systems and AI workflows.",
+    description: "Tools and platforms I use across backend systems, cloud infrastructure, and full-stack application delivery.",
     groups: [
       {
         title: "Programming Languages",
         icon: "</>",
         accent: "violet",
-        items: ["Java", "Python", "C++", "Go", "TypeScript","JavaScript", "SQL"]
+        items: ["Python", "JavaScript", "TypeScript", "Java", "C/C++", "C#", "SQL"]
       },
       {
-        title: "Frontend Development",
+        title: "Frameworks",
         icon: "◫",
         accent: "blue",
-        items: ["ReactJS", "Next.js", "Angular", "Material-UI", "HTML/CSS"]
+        items: ["FastAPI", "Flask", "Django", "ReactJS", "GraphQL", "Node.js", "Angular", "Spring", ".NET"]
       },
       {
-        title: "Backend Development",
+        title: "Backend & Systems",
         icon: "▭",
         accent: "green",
-        items: [
-          "Spring Boot",
-          "Flask",
-          "Node.js",
-          "REST APIs",
-          "Microservices",
-          "Event-Driven Architecture"
-        ]
+        items: ["Kafka", "REST APIs", "AWS Lambda", "Microservices", "Redis", "Linux"]
       },
       {
-        title: "Databases",
+        title: "Databases & Storage",
         icon: "◉",
         accent: "orange",
-        items: ["MySQL", "MongoDB", "PostgreSQL", "Redshift", "SQL Server"]
+        items: ["MongoDB", "PostgreSQL", "MySQL", "DynamoDB", "ElastiCache", "S3", "Redis"]
       },
       {
         title: "Cloud & DevOps",
         icon: "☁",
         accent: "cyan",
-        // featured: true,
-        items: ["AWS", "Lambda", "SNS/SQS", "Docker", "Kubernetes", "Jenkins"]
+        items: ["AWS", "Docker", "Kubernetes", "Jenkins", "Git", "GitLab", "Terraform", "Datadog", "GCP"]
       },
       {
         title: "AI & ML",
         icon: "✷",
         accent: "pink",
-        items: ["LLMs", "RAG", "Agentic AI", "LangChain", "LangGraph", "scikit-learn"]
+        items: ["LLMs", "OpenAI API", "TensorFlow", "Machine Learning", "NLP", "Prompt Engineering"]
       }
     ]
   },
   contact: {
-    title: "Let’s build together",
+    title: "Let's connect",
     description:
-        "Open to discussing new opportunities, creative ideas, and potential collaborations.",
+      "Open to software engineering conversations across backend, full-stack, cloud, and applied AI work.",
     emailLabel: "Email",
-    emailValue: "mkulkarni5479@sdsu.edu",
-    emailHref: "mailto:mkulkarni5479@sdsu.edu",
+    emailValue: "sdesale9794@sdsu.edu",
+    emailHref: "mailto:sdesale9794@sdsu.edu",
     phoneLabel: "Phone",
-    phoneValue: "+1 (619) 430-5672",
-    phoneHref: "tel:+16194305672"
+    phoneValue: "+1 (619) 534-7622",
+    phoneHref: "tel:+16195347622"
   },
   footer: {
-    copyright: "© 2026 Mrudula Kulkarni. All rights reserved.",
+    copyright: "© 2026 Shivam Desale. All rights reserved.",
     builtWith: "Designed & built with Next.js, React, TypeScript, and CSS."
   }
 };
