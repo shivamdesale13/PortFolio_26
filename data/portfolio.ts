@@ -182,6 +182,30 @@ export const portfolioContent: PortfolioContent = {
         linkHref: "https://github.com/shivamdesale13/Worker_productivity_prediction"
       },
       {
+        title: "AI-Powered System Design Simulator",
+        description:
+          "A full-stack SaaS MVP for system design interview practice. Users pick a challenge like 'Design Twitter', write a structured solution, and receive AI-generated interviewer feedback with scores, strengths, weaknesses, and trade-off analysis.",
+        tags: ["React", "GraphQL", "Apollo Server", "PostgreSQL", "Prisma", "OpenAI API", "JWT"],
+        linkLabel: "View Code",
+        linkHref: "https://github.com/shivamdesale13/AI-Powered-System-Design-Guide"
+      },
+      {
+        title: "PDF RAG Chatbot",
+        description:
+          "A PDF question-answering chatbot built from scratch using Retrieval-Augmented Generation — no LangChain. Extracts text, chunks it, embeds with sentence-transformers, indexes in FAISS, and generates grounded answers via Claude.",
+        tags: ["Python", "FAISS", "Sentence-Transformers", "Claude API", "PyMuPDF", "RAG"],
+        linkLabel: "View Code",
+        linkHref: "https://github.com/shivamdesale13/pdf-rag-chatbot"
+      },
+      {
+        title: "StreamPulse - Creator Sponsorship Analytics API",
+        description:
+          "A creator sponsorship analytics REST API built in Go. Tracks deals between creators and sponsors, processes events asynchronously through a goroutine pipeline, and exposes aggregated analytics.",
+        tags: ["Go", "Gin", "JWT", "Goroutines", "DynamoDB Interface", "REST API"],
+        linkLabel: "View Code",
+        linkHref: "https://github.com/shivamdesale13/StreamPulse-A-Creator-Sponsorship-Analytics-API"
+      },
+      {
         title: "SMART TOLL BOOTH SYSTEM USING SMART CONTRACT",
         description:
             "Designed and implemented an admin panel website for efficient tracking and executed logic for smart contracts, ensuring secure and transparent toll transactions.",
